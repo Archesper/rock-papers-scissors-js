@@ -1,0 +1,67 @@
+
+body {
+    color: white;
+    background-color: rgb(87, 84, 84);
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    color: green;
+    background-color: rgb(180, 185, 170);
+    border-bottom: solid 3px green;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#winOrLose, #announceWinner {
+    text-align: center;
+}
+
+#resultDiv {
+    width: 100%;
+}
+
+#scores {
+    display: flex;
+    font-size: 1.4rem;
+    margin: 4%;
+}
+
+#playerScore {
+    margin: 0 auto 0 25%;
+}
+
+#computerScore {
+    margin: 0 25% 0 auto;
+}
+
+#playerOptions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.optionButton {
+    cursor: pointer;
+    width: 17%;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    color: white;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.optionButton:hover {
+    --hover-color: rgb(83, 109, 90);
+    background-color: var(--hover-color);
+}
