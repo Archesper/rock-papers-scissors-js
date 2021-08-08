@@ -1,1 +1,1 @@
-# A console-based rock-papers-scissors game
+# A web-based rock-papers-scissors game
